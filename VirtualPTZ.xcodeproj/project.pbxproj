@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56EEB25A26645DF90009FE2B /* WorldShifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EEB25926645DF90009FE2B /* WorldShifter.swift */; };
+		56EEB2762666B3120009FE2B /* WorldScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EEB2752666B3120009FE2B /* WorldScene.swift */; };
+		56EEB2782666B69D0009FE2B /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EEB2772666B69D0009FE2B /* NSImageExtension.swift */; };
+		BE8832AC2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8832AB2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift */; };
+		BEF5B53A2453D9CA00E7FC18 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B5392453D9CA00E7FC18 /* Main.swift */; };
+		BEF5B53F2453E8F500E7FC18 /* PluginInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B53E2453E8F500E7FC18 /* PluginInterface.swift */; };
+		BEF5B5412453F50000E7FC18 /* KWObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B5402453F50000E7FC18 /* KWObject.swift */; };
+		BEF5B5432453FE5D00E7FC18 /* KWPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B5422453FE5D00E7FC18 /* KWPlugin.swift */; };
+		BEF5B5452454003B00E7FC18 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B5442454003B00E7FC18 /* Log.swift */; };
+		BEF5B547245403AF00E7FC18 /* KWDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B546245403AF00E7FC18 /* KWDevice.swift */; };
+		BEF5B54A24540C0500E7FC18 /* KWStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B54924540C0500E7FC18 /* KWStream.swift */; };
+		BEF5B54D245417B600E7FC18 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5B54C245417B600E7FC18 /* Property.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56EEB25926645DF90009FE2B /* WorldShifter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldShifter.swift; sourceTree = "<group>"; };
+		56EEB2752666B3120009FE2B /* WorldScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldScene.swift; sourceTree = "<group>"; };
+		56EEB2772666B69D0009FE2B /* NSImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		BE8832AB2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+SimpleDALPlugin.swift"; sourceTree = "<group>"; };
+		BEF5B52F2453D9B300E7FC18 /* VirtualPTZ.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualPTZ.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF5B5322453D9B300E7FC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF5B5382453D9CA00E7FC18 /* VirtualPTZ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VirtualPTZ-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEF5B5392453D9CA00E7FC18 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		BEF5B53E2453E8F500E7FC18 /* PluginInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginInterface.swift; sourceTree = "<group>"; };
+		BEF5B5402453F50000E7FC18 /* KWObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWObject.swift; sourceTree = "<group>"; };
+		BEF5B5422453FE5D00E7FC18 /* KWPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWPlugin.swift; sourceTree = "<group>"; };
+		BEF5B5442454003B00E7FC18 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		BEF5B546245403AF00E7FC18 /* KWDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWDevice.swift; sourceTree = "<group>"; };
+		BEF5B54924540C0500E7FC18 /* KWStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWStream.swift; sourceTree = "<group>"; };
+		BEF5B54C245417B600E7FC18 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF5B52C2453D9B300E7FC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF5B5262453D9B300E7FC18 = {
+			isa = PBXGroup;
+			children = (
+				BEF5B5312453D9B300E7FC18 /* VirtualPTZ */,
+				BEF5B5302453D9B300E7FC18 /* Products */,
+				BEF5B53B2453DFA200E7FC18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF5B5302453D9B300E7FC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5B52F2453D9B300E7FC18 /* VirtualPTZ.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF5B5312453D9B300E7FC18 /* VirtualPTZ */ = {
+			isa = PBXGroup;
+			children = (
+				56EEB25926645DF90009FE2B /* WorldShifter.swift */,
+				56EEB2752666B3120009FE2B /* WorldScene.swift */,
+				BEF5B5322453D9B300E7FC18 /* Info.plist */,
+				BEF5B5392453D9CA00E7FC18 /* Main.swift */,
+				56EEB2772666B69D0009FE2B /* NSImageExtension.swift */,
+				BEF5B53E2453E8F500E7FC18 /* PluginInterface.swift */,
+				BEF5B5382453D9CA00E7FC18 /* VirtualPTZ-Bridging-Header.h */,
+				BEF5B5402453F50000E7FC18 /* KWObject.swift */,
+				BEF5B5422453FE5D00E7FC18 /* KWPlugin.swift */,
+				BEF5B5442454003B00E7FC18 /* Log.swift */,
+				BEF5B546245403AF00E7FC18 /* KWDevice.swift */,
+				BEF5B54924540C0500E7FC18 /* KWStream.swift */,
+				BEF5B54C245417B600E7FC18 /* Property.swift */,
+				BE8832AB2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift */,
+			);
+			path = VirtualPTZ;
+			sourceTree = "<group>";
+		};
+		BEF5B53B2453DFA200E7FC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF5B52E2453D9B300E7FC18 /* VirtualPTZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF5B5352453D9B300E7FC18 /* Build configuration list for PBXNativeTarget "VirtualPTZ" */;
+			buildPhases = (
+				BEF5B52B2453D9B300E7FC18 /* Sources */,
+				BEF5B52C2453D9B300E7FC18 /* Frameworks */,
+				BEF5B52D2453D9B300E7FC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualPTZ;
+			productName = SimpleDALPlugin;
+			productReference = BEF5B52F2453D9B300E7FC18 /* VirtualPTZ.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF5B5272453D9B300E7FC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = net.kleinware;
+				TargetAttributes = {
+					BEF5B52E2453D9B300E7FC18 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = BEF5B52A2453D9B300E7FC18 /* Build configuration list for PBXProject "VirtualPTZ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF5B5262453D9B300E7FC18;
+			productRefGroup = BEF5B5302453D9B300E7FC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF5B52E2453D9B300E7FC18 /* VirtualPTZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF5B52D2453D9B300E7FC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF5B52B2453D9B300E7FC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF5B53F2453E8F500E7FC18 /* PluginInterface.swift in Sources */,
+				BEF5B5412453F50000E7FC18 /* KWObject.swift in Sources */,
+				56EEB2782666B69D0009FE2B /* NSImageExtension.swift in Sources */,
+				BEF5B5452454003B00E7FC18 /* Log.swift in Sources */,
+				BE8832AC2454424600326232 /* CVPixelBuffer+SimpleDALPlugin.swift in Sources */,
+				BEF5B547245403AF00E7FC18 /* KWDevice.swift in Sources */,
+				BEF5B5432453FE5D00E7FC18 /* KWPlugin.swift in Sources */,
+				56EEB25A26645DF90009FE2B /* WorldShifter.swift in Sources */,
+				56EEB2762666B3120009FE2B /* WorldScene.swift in Sources */,
+				BEF5B53A2453D9CA00E7FC18 /* Main.swift in Sources */,
+				BEF5B54D245417B600E7FC18 /* Property.swift in Sources */,
+				BEF5B54A24540C0500E7FC18 /* KWStream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEF5B5332453D9B300E7FC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEF5B5342453D9B300E7FC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BEF5B5362453D9B300E7FC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F676PT226;
+				INFOPLIST_FILE = "$(SRCROOT)/VirtualPTZ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kleinware.VirtualPTZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VirtualPTZ/VirtualPTZ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		BEF5B5372453D9B300E7FC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8F676PT226;
+				INFOPLIST_FILE = "$(SRCROOT)/VirtualPTZ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kleinware.VirtualPTZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VirtualPTZ/VirtualPTZ-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF5B52A2453D9B300E7FC18 /* Build configuration list for PBXProject "VirtualPTZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF5B5332453D9B300E7FC18 /* Debug */,
+				BEF5B5342453D9B300E7FC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF5B5352453D9B300E7FC18 /* Build configuration list for PBXNativeTarget "VirtualPTZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF5B5362453D9B300E7FC18 /* Debug */,
+				BEF5B5372453D9B300E7FC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF5B5272453D9B300E7FC18 /* Project object */;
+}
